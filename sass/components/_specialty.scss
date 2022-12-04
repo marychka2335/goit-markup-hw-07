@@ -1,0 +1,44 @@
+.specialty {
+  padding-top: 94px;
+}
+
+.specialty__container {
+  display: flex;
+  padding-left: 0;
+}
+
+.specialty__icons-container {
+  width: 270px;
+  background-color: #F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+
+.specialty__icons {
+  fill: #212121;
+}
+
+.specialty__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.specialty__text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.specialty__item {
+  width: 270px;
+
+&:not(:last-child) {
+  margin-right: 30px;
+}
+}
