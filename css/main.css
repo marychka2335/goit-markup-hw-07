@@ -235,66 +235,6 @@ img {
           align-items: center;
 }
 
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.nav__item {
-  margin-bottom: 0;
-}
-.nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav__link {
-  color: var(--main-color);
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: var(--slow-transform);
-          transition-duration: var(--slow-transform);
-  -webkit-transition-timing-function: var(--trans-timing);
-          transition-timing-function: var(--trans-timing);
-  display: block;
-  padding: 32px 0;
-  position: relative;
-}
-.nav__link--current {
-  color: var(--active-color);
-}
-.nav__link--current::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--active-color);
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-}
-.nav__link:hover, .nav__link:focus {
-  color: var(--active-color);
-  fill: currentColor;
-}
-.nav__link:active {
-  color: var(--active-color);
-}
-
 .contact__list {
   color: var(--second-color);
   display: -webkit-box;
@@ -392,6 +332,66 @@ img {
 .logo--mb {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav__item {
+  margin-bottom: 0;
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
+  color: var(--main-color);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: var(--slow-transform);
+          transition-duration: var(--slow-transform);
+  -webkit-transition-timing-function: var(--trans-timing);
+          transition-timing-function: var(--trans-timing);
+  display: block;
+  padding: 32px 0;
+  position: relative;
+}
+.nav__link--current {
+  color: var(--active-color);
+}
+.nav__link--current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--active-color);
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+.nav__link:hover, .nav__link:focus {
+  color: var(--active-color);
+  fill: currentColor;
+}
+.nav__link:active {
+  color: var(--active-color);
 }
 
 .hero {
